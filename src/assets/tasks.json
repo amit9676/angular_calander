@@ -1,0 +1,84 @@
+[
+    {
+      "date": "2023-12-20",
+      "startTime": "6:00",
+      "endTime": "9:30",
+      "rowspan": 7,
+      "taskLine": 1,
+      "content": "Task 1",
+      "owner": "John Doe"
+    },
+    {
+      "date": "2023-12-20",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "rowspan": 3,
+      "taskLine": 4,
+      "content": "Task 1.5",
+      "owner": "John Doe"
+    },
+    {
+      "date": "2023-12-20",
+      "startTime": "10:30",
+      "endTime": "12:00",
+      "rowspan": 3,
+      "taskLine": 2,
+      "content": "Task 2",
+      "owner": "Jane Doe"
+    },
+    {
+      "date": "2023-12-20",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "rowspan": 2,
+      "taskLine": 3,
+      "content": "Task 3",
+      "owner": "Alice"
+    },
+    {
+      "date": "2023-12-20",
+      "startTime": "16:30",
+      "endTime": "17:30",
+      "rowspan": 2,
+      "taskLine": 4,
+      "content": "Task 4",
+      "owner": "Bob"
+    },
+    {
+      "date": "2023-12-20",
+      "startTime": "19:00",
+      "endTime": "20:00",
+      "rowspan": 2,
+      "taskLine": 5,
+      "content": "Task 5",
+      "owner": "Eve"
+    },
+    {
+      "date": "2023-12-20",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rowspan": 2,
+      "taskLine": 1,
+      "content": "Task 6",
+      "owner": "Amit"
+    }
+    ,
+    {
+      "date": "2023-12-20",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "rowspan": 4,
+      "taskLine": 1,
+      "content": "Task 7",
+      "owner": "Amit"
+    },
+    {
+      "date": "2023-12-20",
+      "startTime": "14:00",
+      "endTime": "16:00",
+      "rowspan": 4,
+      "taskLine": 1,
+      "content": "Task 7",
+      "owner": "Amit"
+    }
+  ]

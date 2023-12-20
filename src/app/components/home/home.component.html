@@ -1,0 +1,45 @@
+<div class='background' ><!--(window:resize)="onResize($event)"-->
+    <div class="date">
+        <button (click)='moveDate(prev)'>הקודם</button>
+        <h1>לוח משימות לתאריך {{currentDate | date:'dd.MM.yyyy'}}</h1>
+        <button (click)='moveDate("next")'>הבא</button>
+    </div>
+    <div class="TableDiv">
+        <table>
+            <th>לו"ז</th>
+
+            <!--colspan="dailyTasks.primaryTablesNumber"-->
+            <th [attr.colspan]='dailyTasksHeader.primaryTablesNumber'>שולחן ראשי {{dailyTasksHeader.primaryTablesNumber}}</th>
+
+            <!--colspan="dailyTasks.secondaryTablesNumber"-->
+            <th [attr.colspan]="dailyTasksHeader.secondaryTablesNumber">שולחן משני {{dailyTasksHeader.secondaryTablesNumber}}</th>
+
+            <!--colspan="dailyTasks.secretNumber"-->
+            <th [attr.colspan]="dailyTasksHeader.secretNumber">סודי {{dailyTasksHeader.secretNumber}}</th>
+                
+            <!--colspan="dailyTasks.taskline.length"-->
+            <!--<th colspan="4">משימות</th>-->
+            <tr *ngFor='let item of hours'>
+                <td>
+                    <span>{{item.hour}}:{{item.minutes | number: '2.0-0'}}</span>
+                </td>
+                <!-- <td *ngFor="let i of range(item.amountOfTasksInIt)"></td> -->
+                <td *ngFor='let innerItem of item.listOfTasksThatBeginOnThisTime' [style.background-color]="innerItem.color">
+                    <span>{{innerItem.content}}</span>
+                </td>
+                <!-- <td colspan="1">
+                    <span>ב</span>
+                </td>
+                <td colspan="1" style="border: 0;">
+                </td>
+                <td colspan="2">
+                    <span>a</span>
+                </td>
+                <td colspan="1" style="border: 0;">
+                    
+                </td> -->
+            </tr>
+        </table>
+    </div>
+
+</div>

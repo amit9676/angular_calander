@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "name": "TaskLine1",
+      "date": "2023-11-28",
+      "type": "שולחן ראשי",
+      "color": "#FF5733",
+      "tasks": []
+    },
+    {
+      "id": 2,
+      "name": "TaskLine2",
+      "date": "2023-11-28",
+      "type": "שולחן משני",
+      "color": "#4CAF50",
+      "tasks": []
+    },
+    {
+      "id": 3,
+      "name": "TaskLine3",
+      "date": "2023-11-28",
+      "type": "סודי",
+      "color": "#3498DB",
+      "tasks": []
+    },
+    {
+      "id": 4,
+      "name": "TaskLine4",
+      "date": "2023-11-28",
+      "type": "שולחן ראשי",
+      "color": "#9B59B6",
+      "tasks": []
+    },
+    {
+      "id": 5,
+      "name": "TaskLine5",
+      "date": "2023-11-28",
+      "type": "שולחן משני",
+      "color": "#E74C3C",
+      "tasks": []
+    }
+  ]
+  
